@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render( //Used from downgrading react
     <React.StrictMode>
-    <App />
+        <App />
     </React.StrictMode>,
     document.getElementById('root')
-    );
+);

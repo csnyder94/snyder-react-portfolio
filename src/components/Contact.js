@@ -1,36 +1,46 @@
-import React, { useState } from 'react'; //Use state from react
+import React, { useState } from 'react';
 
-const Contact = () => { //Function for submitting a contact form
+const Contact = () => {
+    // Define state variables for the name, email, and message fields
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+
+    // Define state variables to keep track of any validation errors
     const [nameError, setNameError] = useState(false);
     const [emailError, setEmailError] = useState(false);
     const [messageError, setMessageError] = useState(false);
+
+    // Define a state variable to track whether the form has been submitted
     const [formSubmit, setFormSubmit] = useState(false);
 
-    const handleSubmit = (event) => { //Specific to handling submit
+    // Handle the form submission event
+    const handleSubmit = (event) => {
         event.preventDefault();
         setNameError(false);
         setEmailError(false);
         setMessageError(false);
 
+        // Check if the name field is empty, set an error if it is
         if (name === '') {
             setNameError(true);
             return;
         }
 
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; //Validating email
+        // Use a regular expression to validate the email format, set an error if it's not valid
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailPattern.test(email)) {
             setEmailError(true);
             return;
         }
 
+        // Check if the message field is empty, set an error if it is
         if (message === '') {
             setMessageError(true);
             return;
         }
 
+        // Set the formSubmit state variable to true to show a success message
         setFormSubmit(true);
     };
 
@@ -84,6 +94,8 @@ const Contact = () => { //Function for submitting a contact form
                                 Submit
                             </button>
                         </form>
+
+                        {/* Show a success message if the form has been submitted */}
                         {formSubmit && (
                             <div className="alert alert-success mt-3" role="alert">
                                 Thank you for reaching out to me!
