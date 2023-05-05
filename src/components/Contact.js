@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2>Contact</h2>
+                        <h3>Contact</h3>
                         <form onSubmit={handleSubmit}>
                             <div className="form-group">
                                 <label htmlFor="name">Name *</label>

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <p>&copy; Made by: Christopher Snyder</p>
+            <p className="footerText">&copy; Made by: Christopher Snyder</p>
             <div className="social-icons">  {/* Rendering a FontAwesomeIcon with the GitHub, LinkedIn or Facebook icon */}
               <a href="https://github.com/csnyder94"> 
                 <FontAwesomeIcon icon={faGithub} /> 
