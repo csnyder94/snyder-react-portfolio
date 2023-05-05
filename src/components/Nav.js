@@ -8,7 +8,7 @@ function Nav(props) {
   }, [currentPage]); // Setting the dependency array to [currentPage] so that the effect only runs when the currentPage changes
 
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark"> {/* Rendering the navigation bar */}
+    <nav className="navbar navbar-expand-md navbar-dark"> {/* Rendering the navigation bar */}
       <div className="container-fluid">
         <ul className="navbar-nav ms-auto mb-2 mb-md-0"> {/* Rendering the unordered list for navigation links */}
           {pages.map((Page) => ( // Mapping through the pages array to render navigation links
