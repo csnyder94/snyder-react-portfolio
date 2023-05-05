@@ -1,12 +1,31 @@
-import React from "react";
-// We import our HelloDiv from the components folder
-import HelloDiv from "./components/HelloDiv";
+import React, { useState } from 'react';
+import Header from './components/Header'; //Importing components
+import Nav from './components/Nav';
+import Page from './components/Page';
+import Footer from './components/Footer';
 
-// App is our top-level main component that references other components
-export default function App() {
-  return (<div>
-    <HelloDiv />
-  </div>
+function App() {
+
+  const [pages] = useState([ //Using stage for specific pages
+    {name: "About"},
+    {name: "Portfolio"},
+    {name: "Contact"},
+    {name: "Resume"}
+  ]);
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
+  return ( //Returning headed and footer on every page
+    <div>
+      <Header>
+      <Nav pages ={pages} currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      </Header>
+      
+      <main>
+        <Page currentPage={currentPage}></Page>
+      </main>
+      <Footer />
+    </div>
   );
 }
 
+export default App;
