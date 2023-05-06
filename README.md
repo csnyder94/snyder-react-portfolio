@@ -1,6 +1,6 @@
 # Christopher Snyder React Portfolio
 
-ADD LINK
+https://csnyder94.github.io/snyder-react-portfolio/
 
 ## Description
 
@@ -15,7 +15,7 @@ This application is a professional portfolio built using React.
 
 ## Expected Webview
 
-Add Image
+![react-portfolio](https://user-images.githubusercontent.com/124528804/236643054-a5985aec-da3d-40d4-8b96-25954f1651b2.png)
 
 ## Installation
 
