@@ -1,6 +1,6 @@
 const snyderPic = require('./images/Chris.jpg')
 
-export default function About() { //Test container currently
+export default function About() {
   return (
 <div className="container">
 <img src={snyderPic} height={160} width={160} alt="Chris-Avatar" className="chrisPic" />

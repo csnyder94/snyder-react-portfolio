@@ -49,10 +49,9 @@ const Contact = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h3>Contact</h3>
                         <form onSubmit={handleSubmit}>
                             <div className="form-group">
-                                <label htmlFor="name">Name *</label>
+                                <label htmlFor="name">Name:</label>
                                 <input
                                     type="text"
                                     className={`form-control ${nameError ? 'is-invalid' : ''}`}
@@ -65,7 +64,7 @@ const Contact = () => {
                                 )}
                             </div>
                             <div className="form-group">
-                                <label htmlFor="email">Email address *</label>
+                                <label htmlFor="email">Email address:</label>
                                 <input
                                     type="email"
                                     className={`form-control ${emailError ? 'is-invalid' : ''}`}
@@ -78,7 +77,7 @@ const Contact = () => {
                                 )}
                             </div>
                             <div className="form-group">
-                                <label htmlFor="message">Message *</label>
+                                <label htmlFor="message">Message:</label>
                                 <textarea
                                     className={`form-control ${messageError ? 'is-invalid' : ''}`}
                                     id="message"
