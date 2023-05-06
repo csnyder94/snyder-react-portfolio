@@ -12,15 +12,15 @@ function Project({ project }) { // Defining a functional component that takes in
           <h5 className="card-title">{title}</h5>
         </div>
 
-        <div className="card-footer">      {/* Rendering a link to the GitHub repository */}
-          <a href={repo} target="_blank" rel="noreferrer">
+        <div>      {/* Rendering a link to the GitHub repository */}
+          <a href={repo} target="_blank" rel="noreferrer" className="link">
             GitHub Repository
           </a>
         </div>
 
         <div>
-          <a href={deploy} target="_blank" rel="noreferrer">  {/* Rendering a link to the deployed project */}
-            Deployed Link
+          <a href={deploy} target="_blank" rel="noreferrer" className="link">  {/* Rendering a link to the deployed project */}
+            Deployed Website
           </a>
         </div>
       </div>

@@ -5,7 +5,7 @@ const Resume = () => {
         <section id="resume">
             <div className="container d-flex justify-content-center">
                 <div className="row justify-content-center">
-                    <p style={{ fontWeight: 'bold' }}>I have gained many new web development proficincies in this bootcamp; some of these include:</p>
+                    <p style={{ fontWeight: 'bold' }}>I have gained many new proficiencies in this full-stack web development bootcamp; some of these include:</p>
                     <div className="col-sm-6 py-4">
                         <div className="resume-skills">
                             <h4>Front-End Proficiencies:</h4>

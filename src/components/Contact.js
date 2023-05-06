@@ -89,7 +89,7 @@ const Contact = () => {
                                     <div className="invalid-feedback">Please enter a message:</div>
                                 )}
                             </div>
-                            <button type="submit" className="btn btn-primary">
+                            <button type="submit" className="btn btn-primary mx-auto d-block">
                                 Submit
                             </button>
                         </form>

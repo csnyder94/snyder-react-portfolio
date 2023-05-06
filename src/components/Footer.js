@@ -4,7 +4,7 @@ import { faGithub, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-i
 
 const Footer = () => { 
   return (
-    <footer className="bg-dark text-light py-3 footer"> {/* Rendering the footer */}
+    <footer className="bg-black text-white py-3 footer"> {/* Rendering the footer */}
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
