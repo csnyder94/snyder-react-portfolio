@@ -22,7 +22,7 @@ const Portfolio = () => {
       deploy: 'https://cryptic-depths-18999.herokuapp.com/'
     },
     {
-      title: 'Project 3',
+      title: 'Project 3 (Not Started Yet)',
       image: snyderPic,
       repo: '#',
       deploy: '#'
