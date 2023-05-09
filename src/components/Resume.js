@@ -39,7 +39,7 @@ const Resume = () => {
             <div className="col-sm-12 py-4 text-center">
                 <p style={{ fontWeight: 'bold' }}>To view my full resume, you may download a PDF version of it here:</p>
                 <div className="resume-download">
-                    <button className="btn btn-primary" onClick={() => window.open('https://docs.google.com/document/d/1Xhw2w1y21WcLseojaLKByZzMCpzYrocc/export?format=pdf', '_blank')}>
+                    <button className="btn btn-primary" onClick={() => window.open('https://docs.google.com/document/d/1yxA9qVmSJgEmagA7gLxqo0evx_PmFHFq/export?format=pdf', '_blank')}>
                         Download Resume
                     </button>
                 </div>
