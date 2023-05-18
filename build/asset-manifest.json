@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/snyder-react-portfolio/static/css/main.c6b35c26.css",
+    "main.js": "/snyder-react-portfolio/static/js/main.2cf5a20f.js",
+    "static/media/blood-donation.png": "/snyder-react-portfolio/static/media/blood-donation.b69d442cfe7b8c7e4854.png",
+    "static/media/simultaneous-searches2.png": "/snyder-react-portfolio/static/media/simultaneous-searches2.c0d1d34c8b3dfc73eed1.png",
+    "static/media/vitality-vault.png": "/snyder-react-portfolio/static/media/vitality-vault.97841773155a3ebae169.png",
+    "static/media/weather.png": "/snyder-react-portfolio/static/media/weather.b9c3ec3834852de29a64.png",
+    "static/media/scheduler.png": "/snyder-react-portfolio/static/media/scheduler.95bd0f4c9ab3b2a039a5.png",
+    "static/media/password.png": "/snyder-react-portfolio/static/media/password.f18a7e7585feee8703f3.png",
+    "static/media/Chris.jpg": "/snyder-react-portfolio/static/media/Chris.2b4969c7952598789f43.jpg",
+    "index.html": "/snyder-react-portfolio/index.html",
+    "main.c6b35c26.css.map": "/snyder-react-portfolio/static/css/main.c6b35c26.css.map",
+    "main.2cf5a20f.js.map": "/snyder-react-portfolio/static/js/main.2cf5a20f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6b35c26.css",
+    "static/js/main.2cf5a20f.js"
+  ]
+}
