@@ -2,10 +2,10 @@ import React from 'react';
 import Project from './Project';
 const searches = require('./images/simultaneous-searches2.png')
 const blood = require('./images/blood-donation.png')
-const snyderPic = require('./images/Chris.jpg')
 const password = require('./images/password.png')
 const scheduler = require('./images/scheduler.png')
 const weather = require('./images/weather.png')
+const vitality = require('./images/vitality-vault.png')
 
 const Portfolio = () => {
   const projects = [
@@ -22,10 +22,10 @@ const Portfolio = () => {
       deploy: 'https://cryptic-depths-18999.herokuapp.com/'
     },
     {
-      title: 'Project 3 (Not Started Yet)',
-      image: snyderPic,
-      repo: '#',
-      deploy: '#'
+      title: 'Vitality Vault',
+      image: vitality,
+      repo: 'https://github.com/csnyder94/vitality-vault',
+      deploy: 'https://vitality-vault.herokuapp.com/'
     },
     {
       title: 'Day Scheduler',
